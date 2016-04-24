@@ -1,0 +1,27 @@
+{
+  "name": "kopen",
+  "version": "1.0.0",
+  "description": "Key-value store.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "test": "npm test"
+  },
+  "keywords": [
+    "key-value",
+    "store"
+  ],
+  "author": "William Bert <william.bert@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "debug": "2.2.0",
+    "nodemon": "1.9.1"
+  },
+  "dependencies": {
+    "body-parser": "1.15.0",
+    "express": "4.13.4",
+    "level": "1.4.0",
+    "level-promise": "2.1.0"
+  }
+}
